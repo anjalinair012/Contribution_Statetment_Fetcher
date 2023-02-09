@@ -4,8 +4,8 @@ Repository for fetching contribution statements from research papers and generat
 
 
 The following can be attained on request
-Datasets are found at : 
-Model checkpoints and configuration files at :
+Datasets are found at : https://drive.google.com/drive/folders/1566xOabHqYtdpeDUqHl8DBryt7P-1gFz?usp=sharing
+Model checkpoints and configuration files at : https://drive.google.com/drive/folders/1vFrqJUDPmnCYzBDCeoQsADh2dut39jYK?usp=sharing
 
 ## Contents of this repository
 
