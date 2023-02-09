@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<!-- <link rel="stylesheet" type="text/css" href="../static/css/styles.css"> -->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+			<h2>Contributing statements Fetcher</h2>
+		</div>
+
+	</div>
+	</header>
+
+	<div class="ml-container">
+
+		<form action="{{ url_for('predict')}}" method="POST" enctype="multipart/form-data">
+		<!-- <input type="file" name="comment"/> -->
+		Please browse your file: <input type="file" name="myfile"><br>
+		<br/>
+
+		<input type="submit" class="btn-info" value="submit">
+
+	</form>
+
+	</div>
+
+
+
+
+</body>
+</html>
