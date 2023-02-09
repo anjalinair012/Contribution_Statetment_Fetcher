@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+			<h2>Contributing statements Fetcher</h2>
+		</div>
+		<p>Here is a summary of your chosen paper based on the contributing statements</p>
+
+	</div>
+	</header>
+	<div class="results">
+	<p style="color:blue;font-size:20;text-align: center;">{{ prediction }}</p>
+
+	</div>
+
+</body>
+</html>
